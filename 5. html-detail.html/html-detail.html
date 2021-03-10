@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	<title>
+		First Page
+	</title>
+	<style type="text/css">
+		.c1{
+			color: yellow; 
+
+		}
+		#i1{
+			color: grey;
+
+		}
+
+		table, th, td {
+			border: 1px solid black;
+		}
+		
+	</style>
+</head>
+<body>
+	<!-- Single line comment -->
+	<!-- Multiple line comment
+	-->
+
+	<!-- headings -->
+	<h1>Heading 1</h1>
+	<h2>Heading 2</h2>
+	<h3>Heading 3</h3>
+	<h4>Heading 4</h4>
+	<h5>Heading 5</h5>
+	<h6>Heading 6</h6>
+
+	<!-- break -->
+	<br>
+
+	<!-- Horizontal line-->
+	<hr>
+
+	<!-- paragraph -->
+	<p>This is a paragraph 1</p> 
+	<p>This is a paragraph 2</p> 
+
+	<!-- CSS: [Inline, Internal, External] -->
+	<p style="color:red; border: 1px solid blue">This is a paragraph [CSS] 1</p>
+	<p style="color:red; border: 1px solid blue; font-size: 20px">This is a paragraph [CSS] 2</p>
+
+	<!-- Element Identification using classes or id attribute -->
+	<p class="c1">Element identification using class [1]</p>
+	<p class="c1">Element identification using class [2]</p>
+
+	<p id="i1">Element identification using id [3]</p>
+
+	<!-- block element & inline element-->
+	<div>
+		Block element 1
+	</div>
+	<p> Block element 2</p>
+
+	<span>Inline element 1</span>
+	<p>Inline element 2</p>
+
+	<span>Inline element 1</span>
+	<span>Inline element 2</span>
+
+	<!-- this is wrong use for span/inline element 
+
+	<span><p>Inline element 1</p></span>
+	<span><p>Inline element 2</p></span>
+
+	-->
+
+	<!-- this is another use for span/inline element-->
+	<p>
+		<span>Hello World 1</span>
+		<span>Hello World 2</span>
+	</p>
+
+	<!-- javascript -->
+	<span>Inline element 1</span>
+	<span id="i2">Inline element 2</span>
+
+	<script type="text/javascript">
+		var element = document.getElementById("i2");
+		element.style.color = "red";
+	</script>
+
+	<!-- hyperlinks -->
+	<div>
+		<a href="https://www.aiub.edu">Aiub website</a>
+		<a href="https://www.aiub.edu" target="_self">Aiub website</a> 
+		<a href="https://www.aiub.edu" target="_blank">Aiub website</a>
+		<a href="http://localhost/CW%20(WebTech)/1.%20hello-world/html-detail.html">Aiub website</a>
+	</div>
+
+	<!-- images -->
+	<img src="user image.png" style="height: 60px; width: 70px">
+	<img src="user image.png" style="height: 60px; width: 70px">
+	<img src="usr image.png" alt="had an user image" style="height: 60px; width: 70px">
+
+	<!-- tables -->
+	<table>
+		<tr>
+			<th>Student Id</th>
+			<th>Student Name</th>
+		</tr>
+		<tr>
+			<td>10-00432-1</td>
+			<td>Abc</td>
+		</tr>
+		<tr>
+			<td>11-10432-1</td>
+			<td>Def</td>
+		</tr>
+		<tr>
+			<td>12-10432-2</td>
+			<td>Ghi</td>
+		</tr>
+	</table>
+
+
+	<table>
+		<tr>
+			<th>Teacher Id</th>
+			<th>Teacher Name</th>
+		</tr>
+		<tr>
+			<td>17-00432-1</td>
+			<td>jkl</td>
+		</tr>
+		<tr>
+			<td>18-10432-1</td>
+			<td>mno</td>
+		</tr>
+		<tr>
+			<td>18-10432-2</td>
+			<td>pqr</td>
+		</tr>
+	</table>
+
+	<!-- lists -->
+	<ul>
+		<li>Java</li>
+		<li>C#</li>
+		<li>Web Tech</li>
+	</ul>
+
+	<ol>
+		<li>Java</li>
+		<li>C#</li>
+		<li>Web Tech</li>
+	</ol>
+
+	<!-- Description lists -->
+	<dl>
+		<dt>Java</dt>
+		<dd>Has preresiquite of C++</dd>
+		<dt>C#</dt>
+		<dd>Has preresiquite of Java</dd>
+	</dl>
+</body>
+</html>
